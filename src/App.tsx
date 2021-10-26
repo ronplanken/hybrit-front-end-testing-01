@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import { NameGeneratorWithHook } from './Exercises/components/04 NameGeneratorWithHook';
+import { HelloWorld } from './examples/components/HelloWorld';
 
 function App() {
 
   return (
-    <NameGeneratorWithHook />
+    <HelloWorld />
   );
 }
 
