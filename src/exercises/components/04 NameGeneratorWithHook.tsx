@@ -1,5 +1,5 @@
 import React from 'react';
-import { useRandomName } from '../hooks/useRandomName';
+import { useRandomName } from '../hooks/05 useRandomName';
 
 export const NameGeneratorWithHook = () => {
   const { name, generate } = useRandomName();

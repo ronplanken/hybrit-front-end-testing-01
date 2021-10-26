@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { RandomNameService } from '../services/RandomNameService';
+import { RandomNameService } from '../services/06 RandomNameService';
 
 export const NameGeneratorWithService = () => {
   const [name, setName] = useState('');
