@@ -1,5 +1,5 @@
 import React from 'react';
-import { RandomNameService } from '../services/RandomNameService';
+import { RandomNameService } from '../services/06 RandomNameService';
 
 function useRandomName() {
   const [name, setName] = React.useState('');
