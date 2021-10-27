@@ -5,7 +5,7 @@ export const BestMovie = () => {
   const [movieTitle, setMovieTitle] = useState('');
 
   const clickHandler = async () => {
-    setMovieTitle(await (await BestMovieService.getMovie()).title);
+    setMovieTitle((await BestMovieService.getMovie()).title);
   };
 
   return (
